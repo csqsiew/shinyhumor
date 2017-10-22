@@ -22,9 +22,10 @@ ui <- fluidPage(
   br(),
   br(),
   br(),
-  # link to humor norms article 
-  tags$a(href = "https://link.springer.com/article/10.3758/s13428-017-0930-6", 
-         "Link to Humor Norms paper")
+  # additional info 
+  h6("Remember: Your responses are anonymous and you are free to leave the website at any time."),
+  h6("If you have any questions about this project, 
+     please don't hesitate to contact Tomas Engelthaler (T.Engelthaler@warwick.ac.uk).")
   )
 
 # global commands to set up data collection
